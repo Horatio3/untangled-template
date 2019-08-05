@@ -50,11 +50,11 @@ function draw() {
   
   //    swap colours
 
-  if (second() % 2 == 1 && colourswitch == false) {
+  if (second() % 3 == 1 && colourswitch == false) {
     colourswitch = true
   }
 
-  if (second() % 2 == 0 && colourswitch) {
+  if (second() % 3 == 0 && colourswitch) {
 
     col.r = random(0, 255)
     col.g = random(0, 255)
