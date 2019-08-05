@@ -128,7 +128,7 @@ function draw() {
 
 
   // colour the background white
-  background(255);
+  //background(255);
   // select white as a colour
   fill(col.r, col.g, col.b);
   // draw a rectangle
